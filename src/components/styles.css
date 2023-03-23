@@ -1,0 +1,94 @@
+body {
+	background-color: #232323;
+}
+form {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	padding: 20px 40px;
+	text-align: left;
+	border-radius: 30px;
+	color: aliceblue;
+	background-color: #232323;
+	padding: 10px;
+	border: 1px dotted #fff;
+}
+label {
+	width: 60%;
+	margin: 10px auto;
+}
+input {
+	margin: 10px auto;
+	padding: 10px 0;
+	width: 60%;
+	border: 0;
+	outline: none;
+}
+button {
+	background: #2d2dfe;
+	width: 30%;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	color: beige;
+	cursor: pointer;
+}
+button:hover {
+	color: black;
+	opacity: 0.4;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width: 60%;
+	margin: 0 auto;
+	border: 1px dashed #efefef;
+	color: #fff;
+	padding: 30px;
+	margin: 10px auto;
+}
+.backdrop {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+}
+.modal {
+	background-color: #fff;
+	border-radius: 18px;
+	margin: 0 auto;
+	width: 35%;
+	border: 1px solid wheat;
+	padding: 10px;
+	color: #efefef;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.modal header {
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #2d2d2d;
+	padding: 10px;
+}
+.modal div {
+	color: #232323;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+.modal footer button {
+	width: 20%;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
